@@ -1,9 +1,13 @@
+## SQL Schema Desigen
+
 create table vendor
 (
 vid int primary key auto_increment,
 vname varchar(12),
 email varchar(15),
 password varchar(20),
+
+
 company varchar(20),
 address varchar(20)
 );
